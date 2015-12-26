@@ -1,0 +1,20 @@
+﻿Сборка начата 26.12.2015 10:33:09.
+     1>Проект "c:\Users\анастасия\documents\visual studio 2015\Projects\Win32\Win32\Win32.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\Win32.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Win32.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Win32.cpp
+         Win32.cpp
+     1>c:\users\анастасия\documents\visual studio 2015\projects\win32\win32\win32.cpp(42): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Win32.res" Win32.rc 
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\анастасия\documents\visual studio 2015\Projects\Win32\Debug\Win32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"c:\users\анастасия\documents\visual studio 2015\Projects\Win32\Debug\Win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\анастасия\documents\visual studio 2015\Projects\Win32\Debug\Win32.lib" /MACHINE:X86 Debug\Win32.res
+         Debug\stdafx.obj
+         Debug\Win32.obj
+         Win32.vcxproj -> c:\users\анастасия\documents\visual studio 2015\Projects\Win32\Debug\Win32.exe
+     1>Сборка проекта "c:\Users\анастасия\documents\visual studio 2015\Projects\Win32\Win32\Win32.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.10
